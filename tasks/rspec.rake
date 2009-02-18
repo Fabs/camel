@@ -19,3 +19,8 @@ Spec::Rake::SpecTask.new do |t|
   t.spec_opts = ['--options', "spec/spec.opts"]
   t.spec_files = FileList['spec/**/*_spec.rb']
 end
+
+desc "Simple Release Camel"
+task :deploy do
+  sh "cp lib/camel/perl.rb camel.rb"
+end
