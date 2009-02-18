@@ -1,26 +1,25 @@
 = camel
 
-* FIX (url)
+There is no Webpage, yet
 
 == DESCRIPTION:
 
-FIX (describe your package)
+It's a simple bind to rspec so you can test your perl scripts with it. It justs generates some code so you can run perl scripts and exchange data between Perl and Ruby with the use of YAML files.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
-
-== SYNOPSIS:
-
-  FIX (code sample of usage)
+- Support to call subroutines into a perl file
+- Support to pass ruby objects (Array, Hash, Integer and Boolean) to Perl
+- Support to receive perl values from subroutine return
+- Support to Mocking using the 'require'
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+- Perl
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+rake install_gem
 
 == LICENSE:
 
